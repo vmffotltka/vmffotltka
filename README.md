@@ -1,11 +1,8 @@
 <div align="center">
-  <h2>👨‍💻 기능 구현을 넘어, 서비스의 구조와 성능을 함께 고민하는 백엔드 개발자 유현서입니다.</h2>
+  <h2>👨‍💻 구조와 성능을 고민하는 백엔드 개발자 유현서입니다.</h2>
 </div>
 
-꾸준히 다져온 알고리즘 역량을 바탕으로, 효율적이고 안정적인 시스템을 구축하기 위해 노력하고 있습니다.
-
-### 🗓 My Timeline
-<img width="903" height="225" alt="image" src="https://github.com/user-attachments/assets/4aac53cf-aec1-4a2c-a96e-840a2b515f77" />
+탄탄한 알고리즘 역량으로 견고한 시스템을 설계합니다.
 
 ### 🛠 Tech Stack
 - **Backend:** <img src="https://img.shields.io/badge/Java-007396?style=flat-square&logo=Java&logoColor=white"/> <img src="https://img.shields.io/badge/Spring Boot-6DB33F?style=flat-square&logo=SpringBoot&logoColor=white"/> <img src="https://img.shields.io/badge/JPA-59666C?style=flat-square"/>
