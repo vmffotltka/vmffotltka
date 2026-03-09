@@ -5,20 +5,7 @@
 꾸준히 다져온 알고리즘 역량을 바탕으로, 효율적이고 안정적인 시스템을 구축하기 위해 노력하고 있습니다.
 
 ### 🗓 My Timeline
-```mermaid
-gantt
-    title Experience Timeline
-    dateFormat  YYYY-MM
-    axisFormat  %Y
-    
-    section 학력 & 병역
-    구암고등학교         :edu1, 2016-03, 2019-02
-    한성대학교           :edu2, 2019-03, 2026-02
-    육군 병장 (만기전역)    :mil, 2022-08, 2024-02
-    
-    section 경력
-    넥스프론 R&D 인턴      :work1, 2025-07, 2026-02
-```
+<img width="903" height="225" alt="image" src="https://github.com/user-attachments/assets/4aac53cf-aec1-4a2c-a96e-840a2b515f77" />
 
 ### 🛠 Tech Stack
 - **Backend:** <img src="https://img.shields.io/badge/Java-007396?style=flat-square&logo=Java&logoColor=white"/> <img src="https://img.shields.io/badge/Spring Boot-6DB33F?style=flat-square&logo=SpringBoot&logoColor=white"/> <img src="https://img.shields.io/badge/JPA-59666C?style=flat-square"/>
