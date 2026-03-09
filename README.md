@@ -32,6 +32,8 @@
 [![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=vmffotltka)](https://solved.ac/vmffotltka)
 
 ### 📊 GitHub Stats
-![Top Langs](https://github-readme-stats-fast.vercel.app/api/top-langs/?username=vmffotltka&layout=compact&langs_count=6&theme=tokyonight)
 
-![GitHub Streak](https://streak-stats.demolab.com?user=vmffotltka)
+<div align="center">
+  <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=vmffotltka&layout=compact&langs_count=6&theme=tokyonight" height="170" />
+  <img src="https://streak-stats.demolab.com?user=vmffotltka&theme=tokyonight" height="170" />
+</div>
