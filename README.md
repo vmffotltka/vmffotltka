@@ -1,5 +1,5 @@
 <div>
-  <h2>👨‍💻 유현서 | Backend Engineer </h2>
+  <h1>👨‍💻 유현서 | Backend Engineer </h1>
 </div>
 
 도메인 주도 설계(DDD)와 모듈형 아키텍처에 관심이 있으며,
