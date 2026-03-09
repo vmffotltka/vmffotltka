@@ -23,10 +23,10 @@
 - OpenAI API 연동을 통한 맞춤형 문제 생성 비동기 파이프라인 구축
 
 ### 🏆 Awards & Activities
-- **교내 프로그래밍 경시대회(HSUPC) 대상(1위)** (2024.11)
+- **교내 프로그래밍 경시대회(HSUPC) 대상(1위)** (2024.11.18)
   - 제한된 시간 내 최적의 알고리즘 구현을 위한 시간·공간 복잡도 검증 역량 입증
-- **한성SW중심대학 페스티벌 코딩대회 우수상** (2024.11)
-- **한성SW중심대학 페스티벌 공모전 우수상** (2024.11)
+- **한성SW중심대학 페스티벌 코딩대회 우수상** (2024.11.29)
+- **한성SW중심대학 페스티벌 공모전 우수상** (2024.11.29)
 
 ### 💎 Algorithm Profile
 [![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=vmffotltka)](https://solved.ac/vmffotltka)
