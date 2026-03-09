@@ -22,3 +22,4 @@
 - **교내 알고리즘 스터디 개설 및 리딩**
   - 커리큘럼 구성 및 팀원들과의 협력적 학습 환경 조성
 - **한성SW중심대학 페스티벌 코딩대회 우수상 / 공모전 우수상** (2024.11)
+[![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=vmffotltka)](https://solved.ac/vmffotltka/)
