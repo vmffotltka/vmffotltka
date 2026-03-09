@@ -1,8 +1,8 @@
-<div align="center">
-  <h2>👨‍💻 구조와 성능을 고민하는 백엔드 개발자 유현서입니다.</h2>
+<div>
+  <h2>👨‍💻 유현서 | Backend Engineer </h2>
 </div>
 
-탄탄한 알고리즘 역량으로 견고한 시스템을 설계합니다.
+인증·권한 시스템과 데이터 흐름 설계에 관심이 있는 백엔드 개발자입니다.
 
 ### 🛠 Tech Stack
 - **Backend:** <img src="https://img.shields.io/badge/Java-007396?style=flat-square&logo=Java&logoColor=white"/> <img src="https://img.shields.io/badge/Spring Boot-6DB33F?style=flat-square&logo=SpringBoot&logoColor=white"/> <img src="https://img.shields.io/badge/JPA-59666C?style=flat-square"/>
