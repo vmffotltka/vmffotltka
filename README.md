@@ -7,7 +7,7 @@
 ### 🛠 Tech Stack
 - **Backend:** <img src="https://img.shields.io/badge/Java-007396?style=flat-square&logo=Java&logoColor=white"/> <img src="https://img.shields.io/badge/Spring Boot-6DB33F?style=flat-square&logo=SpringBoot&logoColor=white"/> <img src="https://img.shields.io/badge/JPA-59666C?style=flat-square"/>
 - **Database:** <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=MySQL&logoColor=white"/> <img src="https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=PostgreSQL&logoColor=white"/>
-- **Infra & Auth:** <img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=AmazonAWS&logoColor=white"/> <img src="https://img.shields.io/badge/Keycloak-EB5424?style=flat-square&logo=Keycloak&logoColor=white"/> (SSO / SAML 2.0)
+- **Infra & Auth:** <img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=AmazonAWS&logoColor=white"/> <img src="https://img.shields.io/badge/Keycloak-EB5424?style=flat-square&logo=Keycloak&logoColor=white"/>
 
 ### 🚀 Key Projects & Experience
 
