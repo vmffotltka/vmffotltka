@@ -1,8 +1,8 @@
 <div align="center">
-  <h2>👨‍💻 도메인 경계를 설계하고, 성능 병목을 구조로 해결하는 백엔드 개발자 유현서입니다.</h2>
+  <h2>👨‍💻 기능 구현을 넘어, 서비스의 구조와 성능을 함께 고민하는 백엔드 개발자 유현서입니다.</h2>
 </div>
 
-탄탄한 알고리즘적 사고를 바탕으로, 효율적이고 안전한 백엔드 시스템 설계에 관심이 많습니다.
+꾸준히 다져온 알고리즘 역량을 바탕으로, 효율적이고 안정적인 시스템을 구축하기 위해 노력하고 있습니다.
 
 ### 🛠 Tech Stack
 - **Backend:** <img src="https://img.shields.io/badge/Java-007396?style=flat-square&logo=Java&logoColor=white"/> <img src="https://img.shields.io/badge/Spring Boot-6DB33F?style=flat-square&logo=SpringBoot&logoColor=white"/> <img src="https://img.shields.io/badge/JPA-59666C?style=flat-square"/>
