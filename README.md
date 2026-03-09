@@ -11,7 +11,7 @@
 
 ### 🚀 Key Projects & Experience
 
-**[넥스프론 R&D 인턴 (AICC 솔루션 인증/인가 모듈 설계)](https://github.com/vmffotltka/Identity-Modulith)**
+**⭐ [넥스프론 R&D 인턴 (AICC 솔루션 인증/인가 모듈 설계)](https://github.com/vmffotltka/Identity-Modulith)**
 - Keycloak을 도입하여 SAML 2.0 기반의 SSO 연동 환경 구축
 - Fetch Join을 적용하여 권한 조회 과정의 N+1 문제 해결 및 단일 쿼리로 통합
 
