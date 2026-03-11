@@ -1,4 +1,5 @@
-# 👨‍💻 유현서 | [Notion Portfolio](https://www.notion.so/Backend-Engineer-30b3699bed5e8004b63dc132ff4a3a73?source=copy_link)
+# 👨‍💻 유현서 | Backend Engineer
+[![Notion](https://img.shields.io/badge/Notion-Portfolio-000000?style=flat&logo=notion&logoColor=white)](https://www.notion.so/Backend-Engineer-30b3699bed5e8004b63dc132ff4a3a73?source=copy_link)
 
 도메인 주도 설계(DDD)와 모듈형 아키텍처에 관심이 있으며,
 인증·권한 시스템 설계를 탐구하는 백엔드 개발자 유현서입니다.
