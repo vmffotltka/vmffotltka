@@ -5,7 +5,7 @@
 > 책임이 명확히 분리되고, 변경이 발생해도 영향 범위를 통제할 수 있는 구조를 설계하는 것에 집착합니다.
 > DDD 기반 설계와 현실적인 아키텍처 선택(Modular Monolith vs MSA)을 고민하고 실무에 적용해 나가고 있습니다.
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-PDF-red?style=flat&logo=adobeacrobatreader&logoColor=white)](포트폴리오_링크)
+[![Portfolio](https://img.shields.io/badge/Portfolio-PDF-red?style=flat&logo=adobeacrobatreader&logoColor=white)](https://www.notion.so/Backend-Engineer-30b3699bed5e8004b63dc132ff4a3a73?source=copy_link)
 [![Email](https://img.shields.io/badge/Email-vmffotltka1@gmail.com-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:vmffotltka1@gmail.com)
 
 ---
