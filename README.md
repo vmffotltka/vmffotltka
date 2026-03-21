@@ -1,9 +1,9 @@
 # 유현서 | Backend Engineer
 
-> **"DB가 날아가는 장애를 겪으며, 처음부터 무너지지 않는 구조를 고민하게 되었습니다."**
+> **"좋은 코드보다 좋은 구조가 먼저라고 생각합니다."**
 >
-> 책임이 명확히 분리되고, 변경이 발생해도 영향 범위를 통제할 수 있는 구조를 설계하는 것에 집착합니다.
-> DDD 기반 설계와 현실적인 아키텍처 선택(Modular Monolith vs MSA)을 고민하고 실무에 적용해 나가고 있습니다.
+> MSA를 직접 도입해보고, 반대로 MSA 대신 Modular Monolith를 선택해본 경험을 통해 기술은 맹목적으로 쓰는 게 아니라 팀 규모와 상황에 맞게 판단해야 한다는 것을 깨달았습니다.
+> 단순히 동작하는 코드를 넘어, 책임이 명확히 분리되고 변경이 발생해도 영향 범위를 통제할 수 있는 구조를 설계하는 것을 중요하게 생각합니다.
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-PDF-red?style=flat&logo=adobeacrobatreader&logoColor=white)](https://www.notion.so/Backend-Engineer-30b3699bed5e8004b63dc132ff4a3a73?source=copy_link)
 [![Email](https://img.shields.io/badge/Email-vmffotltka1@gmail.com-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:vmffotltka1@gmail.com)
@@ -38,7 +38,7 @@
 ### [길라의 빛](https://github.com/Capston-Design-Team-Nova/Light_Of_Gilla) — 캡스톤 프로젝트 (2025.01 – 2025.05)
 > MSA 기반 병원 추천 서비스 / 4인 팀 (BE 2, FE 2) / 백엔드 담당
 
-- **MSA 아키텍처**: 장애 격리와 독립 배포 학습을 위해 의도적으로 MSA 도입, API Gateway로 엔드포인트 단일화
+- **MSA 아키텍처**: 지원금 40만원 예산 내 MSA 비용 충당 가능함을 계산하고, 장애 격리와 독립 배포 이점을 팀원에게 설득해 MSA 도입 주도
 - **데이터 파이프라인**: BeautifulSoup + Selenium으로 전국 병원·약국 25,000건 크롤링 및 적재 자동화
 - **장애 대응**: EC2 메모리 부족으로 25,000건 유실 → CSV 기반 자동 복구 파이프라인 구축, **5분 내 복구**
 
