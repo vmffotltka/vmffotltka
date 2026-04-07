@@ -1,9 +1,10 @@
 # 유현서 | Backend Engineer
 
-> **"좋은 코드보다 좋은 구조가 먼저라고 생각합니다."**
+> **"좋은 구조는 정답이 아니라, 상황 속에서 선택되는 결과라고 생각합니다."**
 >
-> MSA를 직접 도입해보고, 반대로 MSA 대신 Modular Monolith를 선택해본 경험을 통해 기술은 맹목적으로 쓰는 게 아니라 팀 규모와 상황에 맞게 판단해야 한다는 것을 깨달았습니다.
-> 단순히 동작하는 코드를 넘어, 책임이 명확히 분리되고 변경이 발생해도 영향 범위를 통제할 수 있는 구조를 설계하는 것을 중요하게 생각합니다.
+> MSA를 도입해보고, 반대로 Modular Monolith로 되돌린 경험을 통해 기술은 맹목적으로 적용하는 것이 아니라 제약과 비용, 팀 규모를 기준으로 판단해야 한다는 것을 배웠습니다.
+> 
+> 동작하는 코드를 넘어, 변경이 발생했을 때 영향 범위를 통제할 수 있는 구조를 설계하는 것을 중요하게 생각합니다.
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-PDF-red?style=flat&logo=adobeacrobatreader&logoColor=white)](https://www.notion.so/Backend-Engineer-30b3699bed5e8004b63dc132ff4a3a73?source=copy_link)
 [![Email](https://img.shields.io/badge/Email-vmffotltka1@gmail.com-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:vmffotltka1@gmail.com)
