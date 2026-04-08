@@ -1,59 +1,35 @@
 # 유현서 | Backend Engineer
 
-> **"좋은 구조는 정답이 아니라, 상황 속에서 선택되는 결과라고 생각합니다."**
->
-> MSA를 도입해보고, 반대로 Modular Monolith로 되돌린 경험을 통해 기술은 맹목적으로 적용하는 것이 아니라 제약과 비용, 팀 규모를 기준으로 판단해야 한다는 것을 배웠습니다.
+> **"MSA 도입 후 Modular Monolith로 구조를 재설계한 경험을 통해, 아키텍처는 이상적인 형태보다 팀 규모와 운영 비용을 기준으로 선택해야 함을 배웠습니다."**
 > 
-> 동작하는 코드를 넘어, 변경이 발생했을 때 영향 범위를 통제할 수 있는 구조를 설계하는 것을 중요하게 생각합니다.
+> 동작하는 코드를 넘어, 인증 로직 수정 시 영향을 받는 코드 범위를 모듈 내부로 제한하여 변경 시에도 개발 속도를 유지할 수 있는 구조를 고민하고 있습니다.
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-PDF-red?style=flat&logo=adobeacrobatreader&logoColor=white)](https://www.notion.so/Backend-Engineer-30b3699bed5e8004b63dc132ff4a3a73?source=copy_link)
-[![Email](https://img.shields.io/badge/Email-vmffotltka1@gmail.com-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:vmffotltka1@gmail.com)
-
----
-
-## 🛠 Tech Stack
-
-| Category | Technologies |
-| :--- | :--- |
-| **Backend** | ![Java](https://img.shields.io/badge/Java-007396?style=flat-square&logo=Java&logoColor=white) ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=SpringBoot&logoColor=white) ![Spring Security](https://img.shields.io/badge/Spring_Security-6DB33F?style=flat-square&logo=SpringSecurity&logoColor=white) ![JPA](https://img.shields.io/badge/JPA-59666C?style=flat-square) |
-| **Architecture** | `DDD` `Modular Monolith` `MSA` |
-| **Database** | ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=MySQL&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=PostgreSQL&logoColor=white) |
-| **Infra** | ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=AmazonAWS&logoColor=white) |
-| **Authentication** | ![Keycloak](https://img.shields.io/badge/Keycloak-EB5424?style=flat-square) `SAML 2.0` `RBAC` |
+[![Email](https://img.shields.io/badge/Email-vmffotltka1@gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:vmffotltka1@gmail.com)
 
 ---
 
 ## 🚀 Key Projects
 
 ### ⭐ [Identity Modulith](https://github.com/vmffotltka/Identity-Modulith) — 넥스프론 R&D 인턴 (2025.07 – 2026.02)
-> AICC 솔루션의 인증·권한 모듈을 DDD 기반 Modular Monolith 구조로 설계
+> 인증 구조와 아키텍처를 판단하며, 팀의 개발 복잡도를 낮추는 설계 기준을 검토한 경험
 
-- **SAML 2.0 기반 SSO 구축**: AWS Connect의 기술적 제약을 고려해 OAuth2/OIDC 대신 Keycloak IdP 채택
-- **Modular Monolith 설계**: 팀 규모와 운영 복잡도를 고려해 MSA 대신 선택, 논리적 도메인 분리 달성
-- **RBAC N+1 개선**: Fetch Join + DTO 프로젝션으로 **26 queries → 1 query, 255ms → 10ms (96% 단축)**
+- **SSO 아키텍처 전환**: AWS Connect의 SAML 2.0 제약을 확인하고, 기존 서버리스 환경 대신 B2B 보안 수준을 충족하는 Keycloak 기반 IdP 구조로 전환
+- **아키텍처 선택과 팀 임팩트**: 팀 규모와 운영 복잡도를 고려해 Modular Monolith 구조를 선택. **인증 관련 기능 변경 시 다른 도메인 수정 없이 독립적으로 배포 가능한 구조를 확보하여 유지보수 효율성 개선**
+- **성능 최적화**: RBAC 조회 시 지연 로딩으로 인한 N+1 문제를 분석하고 Fetch Join + DTO 프로젝션으로 개선 (**26 queries → 1 query, 255ms → 10ms**)
 
 `Spring Boot` `Keycloak` `PostgreSQL` `SAML 2.0` `DDD`
 
 ---
 
 ### [길라의 빛](https://github.com/Capston-Design-Team-Nova/Light_Of_Gilla) — 캡스톤 프로젝트 (2025.01 – 2025.05)
-> MSA 기반 병원 추천 서비스 / 4인 팀 (BE 2, FE 2) / 백엔드 담당
+> 협업 병목을 구조적으로 해결하기 위해 타당성을 검토하고 MSA 도입을 판단한 프로젝트
 
-- **MSA 아키텍처**: 지원금 40만원 예산 내 MSA 비용 충당 가능함을 계산하고, 장애 격리와 독립 배포 이점을 팀원에게 설득해 MSA 도입 주도
-- **데이터 파이프라인**: BeautifulSoup + Selenium으로 전국 병원·약국 25,000건 크롤링 및 적재 자동화
-- **장애 대응**: EC2 메모리 부족으로 25,000건 유실 → CSV 기반 자동 복구 파이프라인 구축, **5분 내 복구**
+- **MSA 도입 판단 과정**: 백엔드 2인 개발 환경에서 반복되는 로컬 테스트 간섭 문제를 해결하기 위해, 지원금 내 인프라 비용을 계산하여 MSA 도입 타당성 검토
+- **독립적 개발 환경 구축**: API Gateway 기반으로 서비스 호출 경로를 단일화. **기능 개발과 테스트를 병렬로 진행할 수 있는 환경을 확보하여 팀원 간 개발 충돌 빈도 제거**
+- **장애 대응 경험**: EC2 메모리 부족으로 데이터 유실 발생 시, 원인 분석에 앞서 CSV 기반 복구 파이프라인을 구축해 **5분 내 서비스 정상화 달성**
 
 `Spring Boot` `MySQL` `AWS API Gateway` `Python`
-
----
-
-### [EduCraft](https://github.com/vmffotltka/PreCapstone) — 교내 공모전 🏆 우수상 (2024.08 – 2024.11)
-> LLM 기반 맞춤형 학습 문제 생성 플랫폼 / 4인 팀 (BE 2, FE 2) / 백엔드 담당
-
-- OpenAI API 연동 비동기 문제 생성 파이프라인 구축
-- 비정형 LLM 응답 데이터를 MySQL에 구조화하는 RDB 모델링 설계
-
-`Node.js` `MySQL` `OpenAI API` `AWS EC2`
 
 ---
 
@@ -61,9 +37,9 @@
 
 | 수상 | 내용 | 날짜 |
 | :--- | :--- | :--- |
-| 🥇 대상 (1위 / 33명) | [HSUPC 프로그래밍 경시대회](https://github.com/HSU-CSE/hsupc-2024-2) | 2024.11.18 |
+| 🥇 대상 (1위 / 33명) | [2024 HSUPC 프로그래밍 경시대회](https://github.com/HSU-CSE/hsupc-2024-2) | 2024.11.18 |
 | 🥈 우수상 (7위 / 52명) | 한성SW중심대학 페스티벌 코딩대회 | 2024.11.29 |
-| 🥈 우수상 (5등 / 27팀) | 한성SW중심대학 페스티벌 공모전 | 2024.11.29 |
+| 🥈 우수상 (5등 / 27팀) | 한성SW중심대학 페스티벌 공모전 (EduCraft 프로젝트) | 2024.11.29 |
 
 ---
 
