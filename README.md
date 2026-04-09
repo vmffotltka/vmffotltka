@@ -1,8 +1,8 @@
 # 유현서 | Backend Engineer
 
-> **"MSA 도입 이후 Modular Monolith로 구조를 재설계한 경험을 통해, 아키텍처는 이상적인 형태보다 팀 규모와 운영 비용을 기준으로 선택해야 함을 배웠습니다."**
+> **"MSA와 Modular Monolith 환경을 각각 경험하며, 아키텍처는 기술적 이상향보다 '팀 규모와 운영 비용'을 기준으로 선택해야 함을 배웠습니다."**
 > 
-> 동작하는 코드를 넘어, 변경 시 영향을 받는 코드 범위를 모듈 내부로 제한해 개발 속도를 유지하는 구조를 설계합니다.
+> 단순히 동작하는 코드를 넘어, 변경의 여파를 모듈 내부로 격리하여 지속 가능한 개발 속도를 유지하는 구조를 설계합니다."
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-PDF-red?style=flat&logo=adobeacrobatreader&logoColor=white)](https://www.notion.so/Backend-Engineer-30b3699bed5e8004b63dc132ff4a3a73?source=copy_link)
 [![Email](https://img.shields.io/badge/Email-vmffotltka1@gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:vmffotltka1@gmail.com)
