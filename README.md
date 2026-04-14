@@ -2,7 +2,7 @@
 
 > **"정답을 고집하기보다, 팀의 피드백을 양분 삼아 더 나은 아키텍처의 근거를 배워가는 개발자입니다."**
 > 
-> 단순히 동작하는 코드를 넘어, 변경의 여파를 모듈 내부로 격리하여 지속 가능한 개발 속도를 유지하는 구조를 설계합니다.
+> 단순한 기능 구현에 머물지 않고, 변경의 여파를 격리해 '팀'의 지속 가능한 개발 속도를 지키는 구조를 지향합니다.
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-Notion-000000?style=flat-square&logo=notion&logoColor=white)](https://www.notion.so/Backend-Engineer-30b3699bed5e8004b63dc132ff4a3a73?source=copy_link)
 [![Blog](https://img.shields.io/badge/Blog-Velog-20C997?style=flat-square&logo=velog&logoColor=white)](https://velog.io/@vmffotltka)
