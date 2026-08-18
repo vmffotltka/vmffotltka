@@ -1,5 +1,6 @@
 # 유현서 | Backend Engineer
 
+[![codemaru card for vmffotltka](https://codemaru.bnbong.com/api/card.svg?github=vmffotltka&boj=vmffotltka&leetcode=codemaru_demo)](https://github.com/vmffotltka)
 > **"스스로 찾아가며 배우고, 팀과 함께 성장하는 개발자입니다."**
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-Notion-000000?style=flat-square&logo=notion&logoColor=white)](https://www.notion.so/Backend-Engineer-30b3699bed5e8004b63dc132ff4a3a73?source=copy_link)
@@ -63,3 +64,4 @@
   <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=vmffotltka&layout=compact&langs_count=6&theme=tokyonight" height="170" />
   <img src="https://streak-stats.demolab.com?user=vmffotltka&theme=tokyonight" height="170" />
 </div>
+
